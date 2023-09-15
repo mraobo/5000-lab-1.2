@@ -1,0 +1,99 @@
+---
+title: "simple_quarto_website"
+toc: true
+number-sections: true
+bibliography: ../reference.bib
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+
+<h1>My first Quarto website</h1>
+
+::: {.grid}
+
+::: {.g-col-6}
+
+## First column 
+Search from google, is there any other methods?
+:::
+  
+::: {.g-col-6}
+
+## Second column 
+
+Let's go
+
+:::
+  
+:::  
+
+
+
+<h2>Try Bulleted</h2>
+<ul>
+<li>Coffee</li>
+<li>Tea</li>
+<li>Milk</li>
+</ul>
+
+
+
+
+
+
+<h3>tttttttt</h3>
+
+
+
+| co1         | co2         | co3           |
+| :---        |    :----:   | ----:         |
+| row1        | row12       | row13         | 
+| row2        | row22       | row23         |
+
+Inline
+$E=mc^2$
+
+
+## Colors
+
+ - red
+ - blue
+ - black
+
+## number
+ - one
+ - two
+ - three
+
+non-inline
+$$ \sum_{k=1}^10 \frac{1}{k^2} = \frac{\pi^2}{6} $$
+
+
+Here is a footnote reference [^1].
+
+[^1]: This is the footnote.
+
+> This is a quote
+
+
+<img src="https://ogden_images.s3.amazonaws.com/www.observertoday.com/images/2020/08/29003327/SUNSET-scaled.jpg" height="500px" width="250px">
+
+<img src="https://images.pexels.com/photos/1287550/pexels-photo-1287550.jpeg?cs=srgb&dl=sunset-1287550.jpg&fm=jpg" height="250px" width="400px">
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+
+
+```{mermaid}
+flowchart LR
+  A[Thought] --> B(Decision)
+  B --> C{Action}
+  C --> D[Sleep]
+  C --> E[Play]
+```
+
+
+This is a cite: [@stenros2017game]
+

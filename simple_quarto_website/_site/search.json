@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nInline \\(E=mc^2\\)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#first-column",
+    "href": "index.html#first-column",
+    "title": "simple_quarto_website",
+    "section": "1 First column",
+    "text": "1 First column\nSearch from google, is there any other methods?"
+  },
+  {
+    "objectID": "index.html#second-column",
+    "href": "index.html#second-column",
+    "title": "simple_quarto_website",
+    "section": "2 Second column",
+    "text": "2 Second column\nLet’s go"
+  },
+  {
+    "objectID": "index.html#colors",
+    "href": "index.html#colors",
+    "title": "simple_quarto_website",
+    "section": "3 Colors",
+    "text": "3 Colors\n\nred\nblue\nblack"
+  },
+  {
+    "objectID": "index.html#number",
+    "href": "index.html#number",
+    "title": "simple_quarto_website",
+    "section": "4 number",
+    "text": "4 number\n\none\ntwo\nthree\n\nnon-inline \\[ \\sum_{k=1}^10 \\frac{1}{k^2} = \\frac{\\pi^2}{6} \\]\nHere is a footnote reference 1.\n\nThis is a quote\n\n\n\n\n\n\n\n\nflowchart LR\n  A[Thought] --&gt; B(Decision)\n  B --&gt; C{Action}\n  C --&gt; D[Sleep]\n  C --&gt; E[Play]\n\n\n\n\n\nThis is a cite: (Stenros 2017)"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the footnote.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html",
+    "href": "slides/slides.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat: revealjs\nbibliography: ../../reference.bib\n---\n\n# In the morning\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n## Breakfast\n\n- Eat eggs\n- Drink coffee\n\n# In the evening\n\n## Dinner\n\n- Eat spaghetti\n- Drink wine\n\n## Going to sleep\n\n- Get in bed\n- Count sheep\n\n- This is a cite[@stenros2017game]"
+  },
+  {
+    "objectID": "slides/slides.html#getting-up",
+    "href": "slides/slides.html#getting-up",
+    "title": "Habits",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "slides/slides.html#breakfast",
+    "href": "slides/slides.html#breakfast",
+    "title": "Habits",
+    "section": "Breakfast",
+    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+  },
+  {
+    "objectID": "slides/slides.html#dinner",
+    "href": "slides/slides.html#dinner",
+    "title": "Habits",
+    "section": "Dinner",
+    "text": "Dinner\n\nEat spaghetti\nDrink wine"
+  },
+  {
+    "objectID": "slides/slides.html#going-to-sleep",
+    "href": "slides/slides.html#going-to-sleep",
+    "title": "Habits",
+    "section": "Going to sleep",
+    "text": "Going to sleep\n\nGet in bed\nCount sheep"
+  },
+  {
+    "objectID": "slides/slides.html#cite",
+    "href": "slides/slides.html#cite",
+    "title": "Habits",
+    "section": "Cite",
+    "text": "Cite\n\nThis is a cite(Stenros 2017)"
+  },
+  {
+    "objectID": "slides/slides.html#picture",
+    "href": "slides/slides.html#picture",
+    "title": "Habits",
+    "section": "Picture",
+    "text": "Picture"
+  },
+  {
+    "objectID": "slides/slides.html#code",
+    "href": "slides/slides.html#code",
+    "title": "Habits",
+    "section": "Code",
+    "text": "Code\n\n\nShow the code\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#referrence",
+    "href": "slides/slides.html#referrence",
+    "title": "Habits",
+    "section": "Referrence",
+    "text": "Referrence\n\n\n\n\n\n\nStenros, Jaakko. 2017. “The Game Definition Game: A Review.” Games and Culture 12 (6): 499–520."
+  }
+]
